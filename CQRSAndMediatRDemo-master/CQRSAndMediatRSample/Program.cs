@@ -4,10 +4,12 @@ using CQRSDomain.Repositories;
 using MediatR;
 using System.Reflection;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+//builder.Services.AddMediatR(typeof(CreateStudentCommandHandler).Assembly);
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
