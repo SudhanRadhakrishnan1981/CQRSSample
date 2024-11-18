@@ -1,5 +1,5 @@
-using CQRSAndMediatRDemo.Repositories;
 using CQRSData.Data;
+using CQRSData.Repositories;
 using CQRSDomain.Repositories;
 using MediatR;
 using System.Reflection;

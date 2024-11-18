@@ -3,7 +3,7 @@ using CQRSDomain.Models;
 using CQRSDomain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace CQRSAndMediatRDemo.Repositories
+namespace CQRSData.Repositories
 {
     public class StudentRepository : IStudentRepository
     {
