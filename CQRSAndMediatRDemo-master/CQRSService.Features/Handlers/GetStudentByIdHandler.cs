@@ -1,10 +1,9 @@
-﻿using CQRSAndMediatRDemo.Models;
-using CQRSAndMediatRDemo.Queries;
-using CQRSAndMediatRDemo.Repositories;
+﻿using CQRSDomain.Models;
+using CQRSDomain.Repositories;
+using CQRSService.Features.Queries;
 using MediatR;
-using System.Numerics;
 
-namespace CQRSAndMediatRDemo.Handlers
+namespace CQRSService.Features.Handlers
 {
     public class GetStudentByIdHandler : IRequestHandler<GetStudentByIdQuery, StudentDetails>
     {

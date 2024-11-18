@@ -1,11 +1,8 @@
-﻿using CQRSAndMediatRDemo.Commands;
-using CQRSAndMediatRDemo.Models;
-using CQRSAndMediatRDemo.Queries;
-using CQRSAndMediatRDemo.Repositories;
+﻿using CQRSDomain.Models;
+using CQRSService.Features.Commands;
+using CQRSService.Features.Queries;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace CQRSAndMediatRDemo.Controllers
 {

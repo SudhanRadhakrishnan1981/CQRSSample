@@ -1,8 +1,7 @@
-﻿using CQRSAndMediatRDemo.Data;
-using CQRSAndMediatRDemo.Models;
+﻿using CQRSData.Data;
+using CQRSDomain.Models;
+using CQRSDomain.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Numerics;
 
 namespace CQRSAndMediatRDemo.Repositories
 {

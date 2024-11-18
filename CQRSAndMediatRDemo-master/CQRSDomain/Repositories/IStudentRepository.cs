@@ -1,6 +1,11 @@
-﻿using CQRSAndMediatRDemo.Models;
+﻿using CQRSDomain.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CQRSAndMediatRDemo.Repositories
+namespace CQRSDomain.Repositories
 {
     public interface IStudentRepository
     {

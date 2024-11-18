@@ -1,8 +1,8 @@
-﻿using CQRSAndMediatRDemo.Commands;
-using CQRSAndMediatRDemo.Repositories;
+﻿using CQRSDomain.Repositories;
+using CQRSService.Features.Commands;
 using MediatR;
 
-namespace CQRSAndMediatRDemo.Handlers
+namespace CQRSService.Features.Handlers
 {
     public class UpdateStudentHandler : IRequestHandler<UpdateStudentCommand, int>
     {

@@ -1,10 +1,9 @@
-﻿using CQRSAndMediatRDemo.Commands;
-using CQRSAndMediatRDemo.Models;
-using CQRSAndMediatRDemo.Repositories;
+﻿using CQRSDomain.Models;
+using CQRSDomain.Repositories;
+using CQRSService.Features.Commands;
 using MediatR;
-using System.Numerics;
 
-namespace CQRSAndMediatRDemo.Handlers
+namespace CQRSService.Features.Handlers
 {
     public class CreateStudentHandler: IRequestHandler<CreateStudentCommand, StudentDetails>
     {

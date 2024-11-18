@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CQRSAndMediatRDemo.Commands
+namespace CQRSService.Features.Commands
 {
     public class DeleteStudentCommand : IRequest<int>
     {

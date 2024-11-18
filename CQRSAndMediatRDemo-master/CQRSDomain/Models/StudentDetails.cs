@@ -1,4 +1,4 @@
-﻿namespace CQRSAndMediatRDemo.Models
+﻿namespace CQRSDomain.Models
 {
     public class StudentDetails
     {

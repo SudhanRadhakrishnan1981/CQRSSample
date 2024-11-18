@@ -1,7 +1,7 @@
-using CQRSAndMediatRDemo.Data;
 using CQRSAndMediatRDemo.Repositories;
+using CQRSData.Data;
+using CQRSDomain.Repositories;
 using MediatR;
-using Microsoft.AspNetCore.Hosting;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);

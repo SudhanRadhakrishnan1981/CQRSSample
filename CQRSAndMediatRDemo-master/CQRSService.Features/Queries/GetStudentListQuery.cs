@@ -1,7 +1,7 @@
-﻿using CQRSAndMediatRDemo.Models;
+﻿using CQRSDomain.Models;
 using MediatR;
 
-namespace CQRSAndMediatRDemo.Queries
+namespace CQRSService.Features.Queries
 {
     public class GetStudentListQuery :  IRequest<List<StudentDetails>>
     {

@@ -1,7 +1,13 @@
-﻿using CQRSAndMediatRDemo.Models;
+﻿using CQRSDomain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CQRSAndMediatRDemo.Data
+namespace CQRSData.Data
 {
     public class DbContextClass : DbContext
     {

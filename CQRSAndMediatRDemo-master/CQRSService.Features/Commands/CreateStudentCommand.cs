@@ -1,8 +1,7 @@
-﻿using CQRSAndMediatRDemo.Models;
+﻿using CQRSDomain.Models;
 using MediatR;
-using System.Numerics;
 
-namespace CQRSAndMediatRDemo.Commands
+namespace CQRSService.Features.Commands
 {
     public class CreateStudentCommand : IRequest<StudentDetails>
     {
